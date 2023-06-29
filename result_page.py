@@ -18,7 +18,7 @@ class ResultPage(GridLayout):
         # Label to screenshot
 
         self.add_widget(
-            Label(text='Screenshot this QRCode\n to save it to your device.'))
+            Label(text='Screenshot this QRCode to\n save it to your device.'))
 
         # Generate Another Code Button
         self.button = Button(text='Generate Another QRCode')
