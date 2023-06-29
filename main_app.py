@@ -1,6 +1,5 @@
 from kivy.app import App
 from kivy.uix.screenmanager import Screen, ScreenManager
-from kivy.uix.label import Label
 from prompt_page import PromptPage
 
 class MainApp(App):
@@ -13,6 +12,7 @@ class MainApp(App):
         self.screen_manager.add_widget(screen)
 
         return self.screen_manager
-
+    
+    
 if __name__ == "__main__":
     MainApp().run()
